@@ -16,5 +16,6 @@ jobs:
       id: Bridgecrew
       uses: bridgecrewio/bridgecrew-action@master
       with:
+        soft_fail: true
         api-key: ${{ secrets.BC_API_KEY }}
         directory: terraform/
