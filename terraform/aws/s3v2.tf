@@ -1,5 +1,6 @@
 
 resource "aws_s3_bucket_object" "data_object" {
+	# checkov:skip=CKV_AWS_186: ADD REASON
   bucket = aws_s3_bucket.data.id
   key    = "customer-master.xlsx"
   source = "resources/customer-master.xlsx"
