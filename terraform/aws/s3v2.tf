@@ -8,11 +8,11 @@ resource "aws_s3_bucket_object" "data_object" {
     Name        = "${local.resource_prefix.value}-customer-master"
     Environment = local.resource_prefix.value
     }, {
-    git_commit           = "763066c30fb499f7849a6e7761574fa154dbc803"
+    git_commit           = "2498c2205a876d10ca8f75c0d65c4b1e28fe70ce"
     git_file             = "terraform/aws/s3v2.tf"
-    git_last_modified_at = "2022-04-02 15:57:26"
-    git_last_modified_by = "binhphan@me.com"
-    git_modifiers        = "binhphan"
+    git_last_modified_at = "2022-04-04 07:24:52"
+    git_last_modified_by = "102866684+bphanbc@users.noreply.github.com"
+    git_modifiers        = "102866684+bphanbc/binhphan"
     git_org              = "bphanbc"
     git_repo             = "terragoat"
     yor_trace            = "a7f01cc7-63c2-41a8-8555-6665e5e39a64"
